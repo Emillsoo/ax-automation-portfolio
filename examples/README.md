@@ -17,5 +17,20 @@
 | 금전 업무 자동화 | `safe-payment-guard/safety_guard.py` | 이중 필터·부분처리 전체 중단 |
 | 배치 서버 이관 | `batch-retry/retry_client.py` | 제한 재시도·타임아웃·실패 분류 |
 
-실행 가능한 통합 데모는 별도 저장소인 [`mock-clinic-n8n-automation`](https://github.com/Emillsoo/mock-clinic-n8n-automation)에 있습니다.
+## 전체 작업물 확장 예제
 
+기존 대표 6개 외에 다음 공개 재구현을 추가했습니다.
+
+- 콜당직 상태 재검증, 내시경 처리 후 재조회, SMS 발송 실적 대조
+- 입원초진 원문 병합, 병실 후보 배정, 회의 간사·상태머신
+- 일일보고 작업 매칭, 수납 대조 계획, Playwright 단일 워커
+- 벤더 API 계약, 검사장비 안정 파일 파싱, OCR 입력·동시성 가드
+- OCR CER 지표, 외래 알림 변경 대조, 재호출 버전과 전광판 페이로드
+- 예약 알림 선행조건, FRAX Outbox, 배포 매니페스트
+- C# 서버 상태 모델, AI 플랫폼 상태, CSI 우선순위·운영 색인
+- 개발요청 블로커 분류, 장애 조사 순서, PowerPoint VBA 게임 루프
+
+프로젝트별 연결 관계와 상태는
+[`docs/ALL_WORKS.md`](../docs/ALL_WORKS.md)에서 확인할 수 있습니다.
+
+실행 가능한 통합 데모는 별도 저장소인 [`mock-clinic-n8n-automation`](https://github.com/Emillsoo/mock-clinic-n8n-automation)에 있습니다.

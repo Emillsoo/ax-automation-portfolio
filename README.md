@@ -6,6 +6,13 @@
 
 > 의료업무의 규칙을 분석해 자동화와 내부 API로 구현하고, 배포·모니터링·장애 대응까지 연결하는 AX 엔지니어
 
+## Complete Work Catalog
+
+대표 사례뿐 아니라 개발·설계·운영·개선활동을 포함한 **전체 38개
+작업물**을 [전체 작업물 카탈로그](docs/ALL_WORKS.md)에 정리했습니다.
+각 항목에는 진행 상태, 담당 범위, 구성, 핵심 알고리즘과 공개
+재구현 소스가 연결되어 있습니다.
+
 ## Featured Projects
 
 ### 지출결의서 RPA 자동화
@@ -53,6 +60,7 @@
 
 ## Documents
 
+- [전체 38개 작업물 카탈로그](docs/ALL_WORKS.md)
 - [전체 프로젝트 사례](docs/PROJECTS.md)
 - [경력기술서](docs/CAREER.md)
 - [자기소개](docs/ABOUT.md)
