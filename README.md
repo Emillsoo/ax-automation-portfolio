@@ -10,30 +10,35 @@
 
 ### 지출결의서 RPA 자동화
 
+- [핵심 공개용 소스](examples/expense-rpa/task_manager.py)
 - 외부 기반의 최소 골격 위에 핵심 자동화 기능 직접 구현
 - Flask API, 작업 상태, Robot Framework, iframe·팝업 제어
 - 타임아웃·취소·실패 증거와 운영 가시성 설계
 
 ### 재원환자 자격 불일치 알림
 
+- [핵심 공개용 소스](examples/eligibility-workflow/double_filter.js)
 - EMR 화면의 업무 규칙을 SQL과 n8n으로 재현
 - 최신 결과·기관 범위·시간대·0건 처리 안정화
 - 업무 시트와 담당자 알림 연계
 
 ### 입퇴원요약 AI 초안 자동작성
 
+- [핵심 공개용 소스](examples/document-draft-review/review_gate.py)
 - 긴 의료기록의 분할 조회·병합
 - 항목별 LLM 초안과 동기화 게이트
 - EMR 임시저장, 감사로그, 의료진 검토 단계
 
 ### DUR·개인투약이력 내부 API
 
+- [핵심 공개용 소스](examples/internal-api/MedicationHistoryFacade.java)
 - Java·iBatis 기반 레거시 EMR 컴포넌트 직접 개발
 - 화면 내부 기능을 자동화와 타 시스템이 재사용할 수 있도록 확장
 - 설정·매퍼·실호출 검증을 포함한 배포 절차
 
 ### 안전한 금전 업무 자동화
 
+- [핵심 공개용 소스](examples/safe-payment-guard/safety_guard.py)
 - 대상 이중 필터
 - 조건 불일치 시 전체 중단
 - 처리 후 실제 데이터 재조회
@@ -41,6 +46,7 @@
 
 ### 폐쇄망 배치 서버 이관
 
+- [핵심 공개용 소스](examples/batch-retry/retry_client.py)
 - 32비트 COM과 오프라인 패키지 대응
 - 방화벽·DNS·프록시 단계별 진단
 - 승인된 내부 API로 데이터 경로 전환
@@ -51,6 +57,7 @@
 - [경력기술서](docs/CAREER.md)
 - [자기소개](docs/ABOUT.md)
 - [제출용 PDF](AX_Automation_Portfolio.pdf)
+- [프로젝트별 핵심 공개용 소스](examples/README.md)
 
 ## Public Demo
 
@@ -71,4 +78,3 @@
 - Email: `dntjqdlaks@gmail.com`
 - GitHub: https://github.com/Emillsoo
 - Notion: https://app.notion.com/p/Notion-2a151a3de62d809c8934d99c48e90f5d
-
